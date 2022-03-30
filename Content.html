@@ -4,24 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Content</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Content.html">Content</a></li>
-            </ul>
+            <div id="sidehover"  class="sidehover">
+                <button class="openbtn"  onclick="openNav()">&#9776; Profile</button>
+            </div>
+            
+            <aside id="aside">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close (x)</a>
+                <ul id="anch">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Content.html">Content</a></li>
+                </ul>
+            </aside>
         </nav>
-        <h1>Content</h1>
     </header>
-    <section>
+    <main>
+        <h1>Content</h1>
         <div>a</div>
         <div>b</div>
         <div>c</div>
-    </section>
+    </main>
+    <script src="scripts.js"></script>
     
 </body>
 </html>

@@ -6,28 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css" rel="stylesheet" />
 </head>
 <body>
     <header>
         <nav>
             <div id="sidehover"  class="sidehover">
-                <button class="openbtn"  onclick="openNav()">&#9776; Profile</button>
+                <button class="openbtn"  onclick="openNav()">&#9776; Nav</button>
             </div>
             <aside id="aside">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close (x)</a>
-                <ul class="anch">
+                <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="About.html">About</a></li>
-                    <li><a href="Content.html">Content</a></li>
+                    <li><a href="Bubble.html">Bubble</a></li>
+                    <li><a href="Rainbow.html">Rainbow</a></li>
                 </ul>
             </aside>
         </nav>
     </header>
-    <main>
-        <h1>About</h1>
-        <div>a</div>
-        <div>b</div>
-        <div>c</div>
+    <main class="page-container align-center">
+        <div class="hear">
+            <h1>About</h1>
+        </div>
+    
+        <div class="socials-container">
+            <a href="https://www.youtube.com/channel/UCqLhVwsYaLfZYvMZJb99ewg" class="socials-card" target="_blank">
+                <i class="mdi mdi-youtube"></i>
+                <span>YouTube</span>
+            </a>
+            <a href="https://github.com/ferytell" class="socials-card" target="_blank">
+                <i class="mdi mdi-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="https://twitter.com/fery_green" class="socials-card" target="_blank">
+                <i class="mdi mdi-twitter"></i>
+                <span>Twitter</span>
+            </a>
+        </div>
     </main>
     <script src="scripts.js"></script>
     

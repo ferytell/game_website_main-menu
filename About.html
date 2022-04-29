@@ -4,24 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css" rel="stylesheet" />
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Content.html">Content</a></li>
-            </ul>
+            <div id="sidehover"  class="sidehover">
+                <button class="openbtn"  onclick="openNav()">&#9776; Nav</button>
+            </div>
+            <aside id="aside">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close (x)</a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Bubble.html">Bubble</a></li>
+                    <li><a href="Rainbow.html">Rainbow</a></li>
+                </ul>
+            </aside>
         </nav>
-        <h1>About</h1>
     </header>
-    <section>
-        <div>a</div>
-        <div>b</div>
-        <div>c</div>
-    </section>
+    <main class="page-container align-center">
+        <div class="hear">
+            <h1>About</h1>
+        </div>
+    
+        <div class="socials-container">
+            <a href="https://www.youtube.com/channel/UCqLhVwsYaLfZYvMZJb99ewg" class="socials-card" target="_blank">
+                <i class="mdi mdi-youtube"></i>
+                <span>YouTube</span>
+            </a>
+            <a href="https://github.com/ferytell" class="socials-card" target="_blank">
+                <i class="mdi mdi-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="https://twitter.com/fery_green" class="socials-card" target="_blank">
+                <i class="mdi mdi-twitter"></i>
+                <span>Twitter</span>
+            </a>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
     
 </body>
 </html>

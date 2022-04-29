@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Bubble</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -16,7 +16,7 @@
             
             <aside id="aside">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close (x)</a>
-                <ul>
+                <ul id="anch">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="About.html">About</a></li>
                     <li><a href="Bubble.html">Bubble</a></li>
@@ -24,15 +24,16 @@
                 </ul>
             </aside>
         </nav>
-        
     </header>
+    <div class="hear">
+        <h1>Bubble</h1>
+    </div>
     <main>
-        <h1>Home</h1>
-        <div>This</div>
-        <div>is</div>
-        <div>Homepage</div>
+        
+        <canvas id="canvas1"></canvas>
     </main>
     <script src="scripts.js"></script>
+    <script src="Bubble.js"></script>
     
 </body>
 </html>
